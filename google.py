@@ -19,7 +19,7 @@ input_element = driver.find_element_by_name('q')
 input_element.send_keys('emacs')
 input_element.send_keys(Keys.RETURN)
 
-time.sleep(5)
+time.sleep(2)
 
 assert 'emacs' in driver.title
 
