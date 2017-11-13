@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 options = Options()
 # headless mode on
 options.add_argument('--headless')
+options.add_argument('--window-size=1280,1024')
 # Chrome webdriver
 driver = webdriver.Chrome(chrome_options=options)
 
